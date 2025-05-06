@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(27, 46, 96);
+}
+
+/* Title section: */
+.title_container{
+    color: antiquewhite;
+    text-align: center;
+}
+
+.title_container > h1{
+    font-family: 'Segoe UI';
+    font-size: 75px;
+    font-weight: 700;
+}
+
+.title_container > h2{
+    font-family: 'Segoe UI';
+    font-size: 30px;
+}
+
+.title_container > p{
+    font-family: 'Segoe UI';
+    font-size: 18px;
+}
+
+/* Games Section */
+.games_container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.games_container > a > img{
+    width: 200px;
+    height: 200px;
+}
+
+.games_title{
+    color: antiquewhite;
+    font-family: 'Segoe UI';
+    font-size: 30px;
+    text-align: center;
+}
