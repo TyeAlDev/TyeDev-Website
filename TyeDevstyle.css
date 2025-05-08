@@ -1,0 +1,99 @@
+body{
+    background-color: rgb(9, 16, 84);
+}
+
+/* Title section: */
+.title_container{
+    color: antiquewhite;
+    text-align: center;
+}
+
+.title_container > h1{
+    font-family: 'Segoe UI';
+    font-size: 75px;
+    font-weight: 700;
+}
+
+.title_container > h2{
+    font-family: 'Segoe UI';
+    font-size: 30px;
+}
+
+.title_container > p{
+    font-family: 'Segoe UI';
+    font-size: 18px;
+}
+
+/* Games Section */
+.games_container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.unselectable{
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.games_container > a > img{
+    width: 200px;
+    height: 200px;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: aquamarine;
+}
+
+.games_title{
+    color: antiquewhite;
+    font-family: 'Segoe UI';
+    font-size: 30px;
+    text-align: center;
+
+    /*make it unselectable*/
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Links section */
+.links_container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.links_container > a > img{
+    width: 125px;
+    height: 125px;
+    border-radius: 200px;
+    border-style: solid;
+    border-color: aquamarine;
+}
+
+.links_title{
+    color: antiquewhite;
+    font-family: 'Segoe UI';
+    font-size: 30px;
+    text-align: center;
+    margin: 30px;
+
+    /*make it unselectable*/
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
